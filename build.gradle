@@ -32,6 +32,6 @@ ext {
     uploadName = 'coder'
     publishVersion = '1.0.0'
     desc = 'auto generate code by apt'
-    website = 'https://github.com/yqyzxd'
+    website = 'https://github.com/yqyzxd/coder-master'
     licences = ['Apache-2.0']
 }
