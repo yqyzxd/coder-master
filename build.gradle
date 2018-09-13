@@ -29,7 +29,7 @@ task clean(type: Delete) {
 ext {
     userOrg = 'yqyzxd' ////bintray.com用户名
     groupId = 'com.wind'
-    uploadName = 'coder'
+    uploadName = 'wcoder'
     publishVersion = '1.0.0'
     desc = 'auto generate code by apt'
     website = 'https://github.com/yqyzxd/coder-master'
