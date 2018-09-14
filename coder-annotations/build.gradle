@@ -7,7 +7,7 @@ sourceCompatibility = JavaVersion.VERSION_1_7
 targetCompatibility = JavaVersion.VERSION_1_7
 
 publish {
-    artifactId = 'coder-annotations'
+    artifactId = 'wcoderind-annotations'
     userOrg = rootProject.userOrg
     groupId = rootProject.groupId
     uploadName = rootProject.uploadName
