@@ -32,12 +32,13 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-
+//命令行中./gradlew clean build bintrayUpload -PbintrayUser=yqyzxd -PbintrayKey=7111b40cc96f58430ceac2891dcf8fc52d6fdc1f -PdryRun=false
+//添加
 ext {
     userOrg = 'yqyzxd' ////bintray.com用户名
     groupId = 'com.wind'
-    uploadName = 'wcoder'
-    publishVersion = '1.0.0'
+    uploadName = 'coder'
+    publishVersion = '1.0.1'
     desc = 'auto generate code by apt'
     website = 'https://github.com/yqyzxd/coder-master'
     licences = ['Apache-2.0']

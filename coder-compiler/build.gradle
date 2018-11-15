@@ -13,7 +13,7 @@ targetCompatibility = "1.7"
 
 //添加
 publish {
-    artifactId = 'wcoderind-compiler'
+    artifactId = 'coder-compiler'
     userOrg = rootProject.userOrg
     groupId = rootProject.groupId
     uploadName = rootProject.uploadName

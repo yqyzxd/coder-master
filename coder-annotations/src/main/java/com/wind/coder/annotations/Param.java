@@ -2,9 +2,12 @@ package com.wind.coder.annotations;
 
 public @interface Param {
 
-    String viewCanonicalName();
+   /* String viewCanonicalName();
     String responseCanonicalName();
-    String requestCanonicalName();
+    String requestCanonicalName();*/
+    Class viewClass();
+    Class requestClass();
+    Class responseClass();
 
     String baseName() default "";
     String basePackage() default "";
