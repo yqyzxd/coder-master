@@ -111,9 +111,9 @@ public class CoderProcessor extends AbstractProcessor {
 
 
                 Param param=heros.param();
-                String viewCanonicalName=param.viewClass().getCanonicalName();
-                String requestCanonicalName=param.requestClass().getCanonicalName();
-                String responseCanonicalName=param.responseClass().getCanonicalName();
+                String viewCanonicalName=param.viewCanonicalName();
+                String requestCanonicalName=param.requestCanonicalName();
+                String responseCanonicalName=param.responseCanonicalName();
                 boolean page=param.page();//是否是分页操作
 
                 Api api=heros.api();
